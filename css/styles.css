@@ -55,8 +55,59 @@ main > .tagline {
 	font-weight: 100;
 }
 
+.bgimg {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg {
+  background-image: url("../asset/NYC_skyline.jpg");
+  height: 100%;
+}
+
+#mySidenav a {
+	position: absolute; /* Position them relative to the browser window */
+	left: -85px; /* Position them outside of the screen */
+	transition: 0.3s; /* Add transition on hover */
+	padding: 15px; /* 15px padding */
+	width: 90px; /* Set a specific width */
+	text-decoration: none; /* Remove underline */
+	font-size: 20px; /* Increase font size */
+	color: white; /* White text color */
+	border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+	text-align: right;
+	font-family: 'Poppins', sans-serif;
+}
+
+#mySidenav a:hover {
+	left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+#about {
+	top: 20px;
+	background-color: black;
+}
+
+#blog {
+	top: 80px;
+	background-color: black; 
+}
+
+#projects {
+	top: 140px;
+	background-color: black; 
+}
+
+#contact {
+	top: 200px;
+	background-color: black; 
+}
+
 .icons-social i {
 	padding: 10px;
+	color: white;
 }
 
 .devto {
