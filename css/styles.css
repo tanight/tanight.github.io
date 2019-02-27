@@ -224,16 +224,43 @@ main > .tagline {
 	font-size: 1.5rem;
 	margin: 1.5rem 0;
 	font-weight: 100;
+	color: black;
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white; 
+}
+
+main > .desc {
+	color: white;
+    text-shadow:
+    /*-1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+	1px 1px 0 black; 
+	*/
+	2px 2px black;
+}
+
+main > .desc > .text {
+	padding-bottom: 15px;
 }
 
 .bgimg {
+  background-image: url("../asset/NYC_skyline.jpg");
+  height: 100%;
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.bgimg {
-  background-image: url("../asset/NYC_skyline.jpg");
-  height: 100%;
+.progimg {
+	background-image: url("../asset/under-construction.jpg");
+	height: 100%;
+	position: relative;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
 }
