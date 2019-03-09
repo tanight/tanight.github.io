@@ -1,85 +1,261 @@
 <!DOCTYPE html>
-<html>
 
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Frankie Ta | Salesforce Dev</title>
+<html lang="en" class="no-js">
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>Frankie Ta | Salesforce Dev</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="" name="description"/>
+        <meta content="" name="author"/>
 
-	<link rel="icon" href="./asset/favicon.ico" type="image/png" />
+        <!-- GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 
-	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
-	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-	 crossorigin="anonymous">
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-</head>
+        <!-- PAGE LEVEL PLUGIN STYLES -->
+        <link href="css/animate.css" rel="stylesheet">
 
-<body>
-	<div class="bgimg">
-		<div id="myTopNav" class="topnav">
-			<ul>
-				<a href="#home" id="home">Home</a>
-				<i class="far fa-circle"></i>
-				<a href="#blog" id="blog">Blog</a>
-				<i class="far fa-circle"></i>
-				<a href="#project" id="projects">Projects</a>
-				<i class="far fa-circle"></i>
-				<a href="#contact" id="contact">Contacts</a>
-			</ul>
-		</div>
-		<div id="mySideNav" class="sidenav">
-			<a href="#" id="home">
-				Home
-				<i class="fas fa-home"></i>
-			</a>
-			<a href="inprogress.html" id="blog">
-				Blog
-				<i class="fab fa-blogger-b"></i>
-			</a>
-			<a href="inprogress.html" id="projects">
-				Projects
-				<i class="fas fa-briefcase"></i>
-			</a>
-			<a href="inprogress.html" id="contact">
-				Contacts
-				<i class="fas fa-envelope-square"></i>
-			</a>
-		</div>
-		<main>
-			<div class="intro">Hello, I'm Frankie!</div>
-			<div class="tagline">Software Developer | NYC | Please Hire Me</div>
-			
-			<div class="icons-social">
-				<a target="_blank" href="https://github.com/tanight">
-					<i class="fab fa-github"></i>
-				</a>
-				<a target="_blank" href="#">
-					<i class="fab fa-facebook"></i>
-				</a>
-				<a target="_blank" href="https://www.linkedin.com/in/frankie-ta/">
-					<i class="fab fa-linkedin"></i>
-				</a>
-				<a target="_blank" href="#">
-					<i class="fab fa-instagram"></i>
-				</a>
-			</div>
-			
-			<div class="desc">
-					<div class="text">Welcome to my page! Currently the sites under construction til further notice.</div>
-					<div class="text">A little introduction about myself. I’m a recent graduate from CUNY Brooklyn College majoring in Computer Information Science. It was during my time in college that I realized my fascination with the world of technology. Upon graduating I was accepted into a program called the Mason Frank Tech Academy that helped individuals interested in new technology(that’s me!) try their hands at Salesforce.</div>
-					<div class="text">What is Salesforce?(taken from their website)<br/>
-					Salesforce is the world’s #1 customer relationship management (CRM) platform. Our cloud-based, CRM applications for sales, service, marketing, and more don’t require IT experts to set up or manage — simply log in and start connecting to customers in a whole new way.</div>
-					<div class="text">In short its a platform that helps businesses do their job better by offering them tools and automation as a services. Fast forward to now and I’ve gotten two certification from Salesforce and looking for opportunities in the NYC area! </div>
+        <!-- THEME STYLES -->
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
 
-			</div>
-			
-		</main>
-	</div>
-</body>
+        <!-- Favicon -->
+        <link rel="icon" href="./asset/favicon.ico" type="image/png" />
+    </head>
+    <!-- END HEAD -->
 
+    <!-- BODY -->
+    <body id="body" data-spy="scroll" data-target=".header">
+
+        <!--========== HEADER ==========-->
+        <header class="header navbar-fixed-top">
+            <!-- Navbar -->
+            <nav class="navbar" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="menu-container js_nav-item">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+
+                        <!-- Logo -->
+                     
+                        <!-- End Logo -->
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse nav-collapse">
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav navbar-nav-right">
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#project">Projects</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#resume">Resume</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Navbar Collapse -->
+                </div>
+            </nav>
+            <!-- Navbar -->
+        </header>
+        <!--========== END HEADER ==========-->
+<!-- update -->
+        <!--========== SLIDER ==========-->
+        <div class="promo-block parallax-window" data-parallax="scroll" data-image-src="./asset/background.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="promo-block-divider">
+                            <h1 class="promo-block-title">Frankie<br/>Ta</h1>
+                            <img src="./asset/platform.png" alt="Salesforce Plaform" style="height: auto; width: 50%">
+                            <p class="promo-block-text"> Software Developer | NYC  </p>
+                        </div>
+                        <ul class="list-inline">
+                            <li><a href="https://www.facebook.com/" target="_blank" class="social-icons"><i class="icon-social-facebook"></i></a></li>
+                            <li><a href="https://github.com/tanight" target="_blank" class="social-icons"><i class="icon-social-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/frankie-ta/"  target="_blank" class="social-icons"><i class="icon-social-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!--========== SLIDER ==========-->
+
+        <!--========== PAGE LAYOUT ==========-->
+        <!-- About -->
+        <div id="about">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-3 sm-margin-b-30">
+                        <div class="text-right sm-text-left">
+                            <h2 class="margin-b-0">About Me</h2>
+                            <p>Intro</p>
+                           
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <div class="margin-b-60">
+
+                            <p>Welcome to my page! Currently the sites under construction til further notice.<br/><br/>
+                                A little introduction about myself. I’m a recent graduate from CUNY Brooklyn College majoring in Computer Information Science. It was during my time in college that I realized my fascination with the world of technology. Upon graduating I was accepted into a program called the Mason Frank Tech Academy that helped individuals interested in new technology(that’s me!) try their hands at Salesforce.<br/><br/>
+                                What is Salesforce?(taken from their website)<br/>
+                                Salesforce is the world’s #1 customer relationship management (CRM) platform. Our cloud-based, CRM applications for sales, service, marketing, and more don’t require IT experts to set up or manage — simply log in and start connecting to customers in a whole new way.<br/><br/>
+                                In short its a platform that helps businesses do their job better by offering them tools and automation as a services. Fast forward to now and I’ve gotten two certification from Salesforce and looking for opportunities in the NYC area!
+                            </p>
+
+
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End About -->
+                <!-- Skills -->
+
+        <div id="project">
+        	<div class="bg-color-sky-light" data-auto-height="true">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-3 sm-margin-b-30">
+                        <div class="text-right sm-text-left">
+                            <h2 class="margin-b-0">Projects</h2>
+                            <p>Feel free to check them out!</p>
+
+
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <p>Projects to be added at a later time for now you can check out my Github!</p>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+    </div>
+        <!-- End Skills -->
+
+        <!-- Resume -->
+        <div id="resume">
+       
+                <div class="container content-lg">
+                    <div class="row">
+                        <div class="col-sm-3 sm-margin-b-30">
+                            <div class="text-right sm-text-left">
+                                <h2 class="margin-b-0">Resume</h2>
+                                <p>Last updated 03/03/2019 </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-sm-offset-1">
+                            <div class="row row-space-2 margin-b-4">
+                               
+                                <div class="col-md-4 md-margin-b-4">
+                                    <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
+                                        <div class="service-element">
+                                            <i class="service-icon color-white icon-screen-tablet"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3 class="color-white">Resume Download</h3>
+                                            <p class="color-white margin-b-5">Click Here</p>
+                                        </div>
+                                    <a href="./Resume.pdf" target="_blank" class="content-wrapper-link"></a>     
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    
+                                </div>
+                            </div>
+                            <!--// end row -->
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+        
+        </div>
+        <!-- End Resume -->
+
+        
+                            </div>
+
+                            </div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
+                             
+                            </div>
+                        </div>
+                        <!-- End Masonry Grid -->
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End Work -->
+            
+        <!-- Contact -->
+        <div id="contact">
+            <div class="bg-color-sky-light">
+                <div class="container content-lg">
+                    <div class="row">
+                        <div class="col-sm-3 sm-margin-b-30">
+                            <div class="text-right sm-text-left">
+                                <h2 class="margin-b-0">Contact</h2>
+                                <p>Feel free to shoot a message!</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-sm-offset-1">
+                            <div class="row">
+                                <div class="col-md-3 col-xs-6 md-margin-b-30">
+                                    <h5>Location</h5>
+                                    <a href="#">New York City, NY</a>
+                                </div>
+                                <div class="col-md-3 col-xs-6 md-margin-b-30">
+                                    <h5>Phone</h5>
+                                    <a href="#">(724) 401-1223</a>
+                                </div>
+                                <div class="col-md-3 col-xs-6">
+                                    <h5>Email</h5>
+                                    <a href="mailto:example@gmail.com">Contact me through linkedin!</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--// end row -->
+
+                </div>
+            </div>
+        </div>
+>
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.appear.js" type="text/javascript"></script>
+        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
+        <script src="js/components/masonry.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
+
+    </body>
+    <!-- END BODY -->
 </html>
